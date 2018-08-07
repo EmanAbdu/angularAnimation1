@@ -51,6 +51,7 @@ export class AppComponent {
 
   addItem() {
     this.myArr.push("Zainab");
+    console.log("Zainab");
   }
 
   removeItem() {
